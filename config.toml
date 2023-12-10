@@ -1,0 +1,31 @@
+baseURL = "https://anarchivi.st/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Fyffee"
+copyright = "© 2023 Fyffee OÜ"
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  attribution = false
+  description = ""
+  images = [
+    "/images/onni.jpg"
+  ]
+
+[author]
+  name = "Fyffee"
+  headline = "Onni Hakala is a seasoned software freelancer available for hire"
+  image = "images/onni.jpg"  # path relative to static directory
+
+  links = [
+    { linkedin = "https://www.linkedin.com/in/onnimonni/" },
+    { github = "https://github.com/onnimonni/" },
+    { email = "mailto:hello@fyff.ee" }
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
